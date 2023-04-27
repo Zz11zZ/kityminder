@@ -1,0 +1,174 @@
+<mxfile host="app.diagrams.net" modified="2023-04-27T03:09:13.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="vMtqHEeolfMREunDMBea" version="21.2.1" type="github">
+  <diagram name="第 1 页" id="zXLDGqz4FTU_K7PCk4jZ">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dB98nryyl3l6zr3HXr_v-1" value="入账销账流程图&lt;br style=&quot;font-size: 24px;&quot;&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="730" y="20" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-10" target="BULWluY8V3oxMb91bzPZ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-2" target="BULWluY8V3oxMb91bzPZ-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-2" target="BULWluY8V3oxMb91bzPZ-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-2" value="projectId是否有效" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-8" value="projectId对应Project表的Id&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="230" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-10" value="入账信息&lt;br&gt;（酒店ID不能为空）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="270" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-12" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-13" value="无效" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="255" y="558" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="1551" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-18" target="BULWluY8V3oxMb91bzPZ-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-18" target="8EE1lsXaZwCDrQhFIQHN-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="300" />
+              <mxPoint x="590" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-18" value="房单号是否为空？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-20" value="有效" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="389" y="270" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-21" target="BULWluY8V3oxMb91bzPZ-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-21" target="8EE1lsXaZwCDrQhFIQHN-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-21" value="房间号是否为空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="380" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BULWluY8V3oxMb91bzPZ-22" target="BULWluY8V3oxMb91bzPZ-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-11" value="空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BULWluY8V3oxMb91bzPZ-25" connectable="0" vertex="1">
+          <mxGeometry x="-0.0286" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561" y="570" as="sourcePoint" />
+            <mxPoint x="646" y="435" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="591" y="570" />
+              <mxPoint x="591" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-13" value="不为空t" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8EE1lsXaZwCDrQhFIQHN-4" connectable="0" vertex="1">
+          <mxGeometry x="0.7128" y="-2" relative="1" as="geometry">
+            <mxPoint x="-14" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-28" value="取第一个房单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8EE1lsXaZwCDrQhFIQHN-4" connectable="0" vertex="1">
+          <mxGeometry x="-0.4291" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-22" value="组单号是否为空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="520" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-28" value="空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="500" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-29" value="入账接口流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BULWluY8V3oxMb91bzPZ-30" value="PMS中simaple是组单表 id 对应orderId gid&lt;br&gt;horder是房单表 id&amp;nbsp; 对应 horderId&lt;br&gt;cid是客单Id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="65" y="90" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8EE1lsXaZwCDrQhFIQHN-1" target="8EE1lsXaZwCDrQhFIQHN-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-1" value="获取有效房单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="645" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8EE1lsXaZwCDrQhFIQHN-5" target="BULWluY8V3oxMb91bzPZ-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="845" y="640" />
+              <mxPoint x="370" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-10" value="不在有效房单内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8EE1lsXaZwCDrQhFIQHN-9" connectable="0" vertex="1">
+          <mxGeometry x="-0.0965" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8EE1lsXaZwCDrQhFIQHN-5" target="8EE1lsXaZwCDrQhFIQHN-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-5" value="房单状态是否在【有效状态】内" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="790" y="380" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-7" value="房单有效状态：status&amp;nbsp; 0/1/4/7&amp;nbsp; 预定/入住/未结账退房/延迟入住&lt;br&gt;0/7不能入消费账&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="645" y="203" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-12" value="空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="490" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8EE1lsXaZwCDrQhFIQHN-15" target="BULWluY8V3oxMb91bzPZ-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-26" value="返回账单ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8EE1lsXaZwCDrQhFIQHN-25" connectable="0" vertex="1">
+          <mxGeometry x="-0.8314" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-15" value="获取操作人、班次、营业时间&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;入账&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="8EE1lsXaZwCDrQhFIQHN-20" target="BULWluY8V3oxMb91bzPZ-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-23" value="存在账单，返回账单ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8EE1lsXaZwCDrQhFIQHN-22" connectable="0" vertex="1">
+          <mxGeometry x="-0.0565" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8EE1lsXaZwCDrQhFIQHN-20" target="8EE1lsXaZwCDrQhFIQHN-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-27" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8EE1lsXaZwCDrQhFIQHN-24" connectable="0" vertex="1">
+          <mxGeometry x="-0.2286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EE1lsXaZwCDrQhFIQHN-20" value="酒店+金额+&lt;br&gt;入账项+凭证号&lt;br&gt;是否已存在账单" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="380" width="110" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
